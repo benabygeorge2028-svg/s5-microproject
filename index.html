@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ben's personal portfolio website">
+  <title>Ben Aby George | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#home">Ben<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+              aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, WORLD! 👋</p>
+        <h1>I'm <span>Ben Aby George</span></h1>
+        <h2>BCA Student & Aspiring Developer</h2>
+        <p class="intro">
+          I enjoy learning new technologies, building websites,
+          and exploring cloud computing and software development.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="avatar">BG</div>
+        <h3>Future Software Developer</h3>
+        <p>Learn · Build · Improve</p>
+        <div class="status">
+          <span class="status-dot"></span> Open to learning opportunities
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2 class="section-title">About Me</h2>
+      <p class="section-text">
+        I'm a Bachelor of Computer Applications student at
+        Amal Jyothi College of Engineering. I'm interested in
+        web development, programming, Docker, and cloud computing.
+        My goal is to develop practical skills by building useful
+        projects and continuously improving my knowledge.
+      </p>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">WHAT I AM LEARNING</p>
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Docker</div>
+        <div class="skill">Cloud Computing</div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="eyebrow">SOME OF MY WORK</p>
+      <h2 class="section-title">My Projects</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-icon">🩸</div>
+          <h3>Blood Bank Management</h3>
+          <p>
+            A web application concept for managing donor information
+            and helping users find blood donors.
+          </p>
+          <div class="tags">PHP · MySQL · HTML · CSS</div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">🐳</div>
+          <h3>Docker Portfolio</h3>
+          <p>
+            A responsive portfolio website packaged into a Docker
+            container and deployed to the cloud.
+          </p>
+          <div class="tags">HTML · CSS · JavaScript · Docker</div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">☁️</div>
+          <h3>Cloud Computing Labs</h3>
+          <p>
+            Practical learning activities exploring cloud services,
+            virtual machines, and deployment.
+          </p>
+          <div class="tags">Cloud · Virtualization · Linux</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-text">
+          Interested in collaborating or discussing technology?
+          Feel free to reach out.
+        </p>
+        <a class="btn primary"
+           href="mailto:benaby08@gmail.com">
+          Send Me an Email
+        </a>
+        <div class="social-links">
+          <a href="https://github.com/benabygeorge2028-svg"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/ben-aby-george-38937b328/?isSelfProfile=true"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Ben Aby George. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+</body>
+</html>
